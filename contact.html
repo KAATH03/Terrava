@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terrava | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <span class="logo-mark"><i class="fa-solid fa-leaf"></i></span>
+        <span class="logo-text">Terrava</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="community.html">Community</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="#join" class="nav-cta">Join Us</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-hero">
+      <div class="overlay"></div>
+      <div class="container contact-hero-content reveal">
+        <p class="eyebrow">Contact Us</p>
+        <h1>Let’s connect and build greener communities together.</h1>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="join">
+      <div class="container contact-grid">
+        <aside class="contact-sidebar reveal">
+          <h4>Support</h4>
+          <a href="#contact-form"><i class="fa-solid fa-circle-info"></i> Environmental Guidance</a>
+          <a href="#faq"><i class="fa-solid fa-question"></i> FAQs</a>
+          <a href="community.html#programs"><i class="fa-solid fa-hands-helping"></i> Community Help</a>
+
+          <h4>Explore</h4>
+          <a href="about.html#why-terrava"><i class="fa-solid fa-user-group"></i> Why Terrava</a>
+          <a href="community.html#programs"><i class="fa-solid fa-seedling"></i> Programs & Activities</a>
+          <a href="blog.html#latest"><i class="fa-solid fa-newspaper"></i> Terrava Blog</a>
+        </aside>
+
+        <div class="contact-main reveal delay-1" id="contact-form">
+          <h2>Get in Touch</h2>
+          <p>
+            Whether you want to ask a question, suggest an environmental activity,
+            collaborate on a program, or simply support the mission of Terrava,
+            we would love to hear from you.
+          </p>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+            </div>
+
+            <select required>
+              <option selected disabled>Type of Inquiry</option>
+              <option>General Question</option>
+              <option>Partnership</option>
+              <option>Community Program</option>
+              <option>Volunteer Interest</option>
+              <option>Feedback</option>
+            </select>
+
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn btn-dark">Send Message</button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+
+        <div class="contact-info-box reveal delay-2">
+          <h4>Mailing Address</h4>
+          <p>Terrava Green Hub<br />Angeles City, Pampanga<br />Philippines</p>
+
+          <h4>Contact Info</h4>
+          <p>+63 912 345 6789<br />hello@terrava.org</p>
+
+          <h4>Availability</h4>
+          <p>Monday to Friday<br />9:00 AM – 5:00 PM</p>
+
+          <div class="map-box">
+            <i class="fa-solid fa-earth-asia"></i>
+            <span>Nature starts with us.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="faq">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow green">FAQ</p>
+          <h2>Quick answers</h2>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <h3>Who can use Terrava?</h3>
+            <p>Students, families, community members, and anyone who wants to understand and practice environmental care.</p>
+          </div>
+          <div class="faq-item reveal delay-1">
+            <h3>Why should people use Terrava?</h3>
+            <p>Because it gives clear guidance, practical eco habits, and encouragement for real action instead of awareness alone.</p>
+          </div>
+          <div class="faq-item reveal delay-2">
+            <h3>Can we collaborate with Terrava?</h3>
+            <p>Yes. Terrava welcomes school-based activities, community programs, and partnerships related to environmental advocacy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top">
+      <div class="footer-brand-block">
+        <a href="index.html" class="logo footer-logo">
+          <span class="logo-mark"><i class="fa-solid fa-leaf"></i></span>
+          <span class="logo-text">Terrava</span>
+        </a>
+        <p>
+          Terrava is an environmental platform that helps people understand sustainability,
+          build better habits, and take part in meaningful community action.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="community.html">Community</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>Focus</h4>
+        <a href="about.html#mission">Mission</a>
+        <a href="community.html#programs">Programs</a>
+        <a href="blog.html#latest">Articles</a>
+        <a href="contact.html#faq">FAQs</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>Get Involved</h4>
+        <p class="footer-small-text">Start with simple actions and grow into meaningful environmental impact.</p>
+        <a href="contact.html#join" class="footer-btn">Join Terrava</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Terrava. Built for a greener future.</p>
+      <div class="footer-bottom-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="community.html">Community</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
